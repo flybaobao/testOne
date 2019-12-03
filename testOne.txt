@@ -5,3 +5,6 @@ This is a testOne
 1、切除新的分支为 被删除分支的名字
 2、git log -g 列出打印日志 找到删除分支的那个序列号
 3.执行下面代码，即可恢复被删除分支的内容 git rebase '对应的执行序列号'
+
+删除远程分支
+git push origin -d '远程分支的名字'
